@@ -135,11 +135,52 @@ body {
 
 .hero-right {
   display: flex;
-
   justify-content: center;
 }
 .hero-right img {
   margin-top: 90px;
   width: 600px;
   height: 600px;
+}
+
+#sobre {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: "Funnel Display", sans-serif;
+}
+
+#sobre h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 3px;
+  margin-top: 0;
+  color: black;
+}
+.valores {
+  font-size: 15px;
+  margin-bottom: 3px;
+  margin-top: 0;
+  color: lightslategray;
+}
+
+#sobre h3 {
+  color: #5170ff;
+  margin: 0;
+}
+.sobre-left img {
+  width: 600px;
+  height: 600px;
+  margin-right: 100px;
+}
+
+.sobre-right {
+  display: flex;
+  flex-direction: column;
+  margin-right: 50px;
 }
