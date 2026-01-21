@@ -1,0 +1,145 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 300px;
+}
+
+.navbar img {
+  width: 120px;
+  height: 120px;
+}
+
+.botoes-log {
+  display: flex;
+  gap: 10px;
+  width: 20%;
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5170ff;
+  color: white;
+  font-size: 15px;
+  font-weight: 800;
+  border: 1px solid #5170ff;
+  border-radius: 10px;
+  width: 40%;
+  height: 10%;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: #5170ff;
+  font-size: 15px;
+  font-weight: 800;
+  border: 1px #5170ff;
+  width: 50%;
+  height: 10%;
+  border: 1px solid #5170ff;
+  border-radius: 10px;
+}
+.menu {
+  display: flex;
+  gap: 30px;
+  margin-left: 80px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-family: "Funnel Display", sans-serif;
+  font-weight: bold;
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.hero-left,
+.hero-right {
+  width: 50%;
+}
+
+.hero-left {
+  display: flex;
+  margin-left: 50px;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.hero-left h1 {
+  font-size: 60px;
+  max-width: 520px;
+  font-family: "Funnel Display", sans-serif;
+}
+
+.emb {
+  margin-bottom: 0;
+}
+.suc {
+  margin: 0;
+  color: #5170ff;
+}
+
+.hero-left p {
+  font-size: 20px;
+  margin: 0;
+  margin-top: 20px;
+  color: lightslategray;
+  font-family: "Funnel Display", sans-serif;
+}
+
+.saiba-mais {
+  margin-top: 20px;
+  background-color: #5170ff;
+  width: 40%;
+  height: 10%;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Funnel Display", sans-serif;
+  font-weight: 100;
+}
+
+.saiba-mais a {
+  text-decoration: none;
+  color: white;
+}
+
+.hero-right {
+  display: flex;
+
+  justify-content: center;
+}
+.hero-right img {
+  margin-top: 90px;
+  width: 600px;
+  height: 600px;
+}
