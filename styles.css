@@ -184,3 +184,73 @@ body {
   flex-direction: column;
   margin-right: 50px;
 }
+
+#projetos h2 {
+  font-family: "Funnel Display", sans-serif;
+  margin-left: 60px;
+}
+.cards-service {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+  font-family: "Funnel Display", sans-serif;
+}
+
+.cards-topo,
+.cards-baixo {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  padding: 30px;
+  border-radius: 20px;
+  border: 1px solid #5170ff;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card-one {
+  background-color: #5170ff;
+  color: white;
+}
+
+.card:not(.card-one) {
+  background-color: transparent;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(81, 112, 255, 0.25);
+}
+
+.card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 300px;
+  color: #b0b8ff;
+}
+
+.card-one p {
+  color: white;
+}
