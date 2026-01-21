@@ -254,3 +254,59 @@ body {
 .card-one p {
   color: white;
 }
+
+#contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0;
+  background-color: #f9f9f9;
+  font-family: "Funnel Display", sans-serif;
+}
+
+#contato h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #5170ff;
+}
+
+#contato form {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 420px;
+}
+
+form {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-family: inherit;
+}
+
+button {
+  padding: 12px;
+  background-color: #5170ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #aaa;
+  font-family: "Funnel Display", sans-serif;
+}
